@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediaLab</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="/img/logo_mini.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/87654ae7be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#12573f",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-primary">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-primary px-4 md:px-0">
+      <div class="section-container flex justify-between items-center">
+        <a href="#"><img src="/img/logo.png" class="py-4 h-16" alt="" /> </a>
+        <ul class="flex gap-10 nav-ul">
+          <li><a href="#about" class="text-white uppercase">about us</a></li>
+          <li><a href="#service" class="text-white uppercase">service</a></li>
+          <li><a href="#benefits" class="text-white uppercase">benefits</a></li>
+          <li>
+            <a href="#contact" class="text-white uppercase">contact us</a>
+          </li>
+        </ul>
+        <button class="menu">
+          <img src="img/menu.png" alt="" />
+        </button>
+      </div>
+      <div
+        class="none nav-list px-10 flex-col justify-between"
+        style="height: calc(100vh - 96px)"
+      >
+        <ul
+          class="bg-primary flex flex-col items-start gap-5 text-[24px] justify-center h-[70%]"
+        >
+          <li>
+            <a href="#about" class="text-white uppercase link">about us</a>
+          </li>
+          <li>
+            <a href="#service" class="text-white uppercase link">service</a>
+          </li>
+          <li>
+            <a href="#benefits" class="text-white uppercase link">benefits</a>
+          </li>
+          <li>
+            <a href="#contact" class="text-white uppercase link">contact us</a>
+          </li>
+        </ul>
+        <div class="h-[30%] text-white">
+          <a href="#"> <img src="img/ig.png" alt="" /></a>
+          <h5 class="mt-4">
+            Address: Chingeltei district, 1 khoroo, Ulaanbaatar 14241, Mongolia
+          </h5>
+          <h5>Phone: +976 90988118</h5>
+          <h5>E-mail: bolor@medialab.mn</h5>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-white fixed z-50 top-[64px] left-0 right-0">
+      <div
+        class="section-container flex justify-between items-center px-5 md:px-0"
+      >
+        <img src="/img/banner_left.png" alt="" class="h-6 md:h-10" />
+
+        <h2
+          class="uppercase tracking-widest text-center font-[700] text-sm md:text-md text-primary"
+        >
+          we promote your business globally
+        </h2>
+
+        <img src="/img/banner_right.png" alt="" class="h-6 md:h-10" />
+      </div>
+    </div>
+    <div class="h-[88px] md:h-[106px]"></div>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide relative">
+          <div class="absolute inset-0 z-0">
+            <img
+              class="h-full w-full object-cover"
+              src="/img/swiper1_1.png"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+          <div class="absolute z-20" style="bottom: calc(10% + 30px); left: 5%">
+            <h1
+              class="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase max-w-[75%]"
+            >
+              sweden beach house in dubai
+            </h1>
+          </div>
+        </div>
+
+        <div class="swiper-slide relative">
+          <div class="absolute inset-0 z-0">
+            <img
+              class="h-full w-full object-cover"
+              src="/img/swiper1_2.png"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+          <div class="absolute z-20" style="bottom: calc(10% + 30px); left: 5%">
+            <h1
+              class="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase max-w-[75%]"
+            >
+              gakuen cocoon tower in japan
+            </h1>
+          </div>
+        </div>
+        <div class="swiper-slide relative">
+          <div class="absolute inset-0 z-0">
+            <img
+              class="h-full w-full object-cover"
+              src="/img/swiper1_3.png"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+          <div class="absolute z-20" style="bottom: calc(10% + 30px); left: 5%">
+            <h1
+              class="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase max-w-[75%]"
+            >
+              raffles hotel in dubai
+            </h1>
+          </div>
+        </div>
+        <div class="swiper-slide relative">
+          <div class="absolute inset-0 z-0">
+            <img
+              class="h-full w-full object-cover"
+              src="/img/swiper1_4.png"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+          <div class="absolute z-20" style="bottom: calc(10% + 30px); left: 5%">
+            <h1
+              class="text-white text-2xl sm:text-3xl md:text-4xl font-bold uppercase max-w-[75%]"
+            >
+              khan shatyr in kazakhstan
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="h-10"></div>
+    <div id="about" class="my-6 md:my-12 section-container">
+      <h2
+        class="uppercase text-2xl md:text-[32px] text-white font-bold px-5 md:px-0"
+      >
+        about us
+      </h2>
+      <div
+        class="text-white flex flex-col lg:flex-row justify-between gap-10 md:gap-[60px] xl:gap-[120px] items-center my-8"
+      >
+        <div class="w-full lg:w-[55%] mb-auto px-5 md:px-0">
+          <p>
+            We are a luxury real estate video production company. We specialize
+            in creating high-end video content that showcases your premium
+            properties in the best possible light. Our works is essential for
+            real estate agents, developers, and property owners looking to
+            market their upscale homes and commercial properties effectively.
+            With a focus on elegance, sophistication, and detail, the goal is to
+            highlight the unique features and luxury lifestyle associated with
+            each property.
+          </p>
+          <p class="mt-10 lg:flex hidden">
+            High quality real estate videos play a crucial role in marketing
+            premium properties. By creating visually stunning and emotionally
+            engaging videos, they help showcase the true value and appeal of
+            luxury real estate, ultimately aiding in faster and more profitable
+            sales.
+          </p>
+        </div>
+        <div class="w-full lg:w-[45%]">
+          <video
+            src="/img/video.mp4"
+            class="w-full h-full"
+            controls
+            autoplay
+          ></video>
+        </div>
+        <p class="lg:px-10 mb-16 flex lg:hidden px-5 md:px-0">
+          High quality real estate videos play a crucial role in marketing
+          premium properties. By creating visually stunning and emotionally
+          engaging videos, they help showcase the true value and appeal of
+          luxury real estate, ultimately aiding in faster and more profitable
+          sales.
+        </p>
+      </div>
+    </div>
+    <div id="service" class="relative">
+      <div
+        class="swiper1 swiper-second service_swiper swiper-container pt-10 lg:pt-20 relative"
+      >
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_1.png" alt="" />
+            <div
+              class="absolute inset-0 z-10 bg-black opacity-0 md:opacity-30"
+            ></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">
+                business centers
+              </h1>
+            </div>
+          </div>
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_2.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">
+                apartments
+              </h1>
+            </div>
+          </div>
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_3.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">
+                residences
+              </h1>
+            </div>
+          </div>
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_4.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">resorts</h1>
+            </div>
+          </div>
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_5.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">hotels</h1>
+            </div>
+          </div>
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_6.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">
+                administrative offices
+              </h1>
+            </div>
+          </div>
+
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_7.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">
+                industrial properties
+              </h1>
+            </div>
+          </div>
+          <div class="swiper-slide relative">
+            <img class="h-full object-cover" src="/img/swiper2_8.png" alt="" />
+            <div class="absolute inset-0 z-10 bg-black opacity-30"></div>
+            <div class="absolute z-20" style="top: 5%; left: 5%">
+              <h1 class="text-white text-lg font-bold">Services</h1>
+            </div>
+            <div
+              class="absolute z-20"
+              style="bottom: calc(10% + 30px); left: 5%"
+            >
+              <h1 class="text-white text-2xl font-bold uppercase">
+                agricultural properties
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex gap-2.5 absolute arrow z-30"
+      >
+        <div
+          class="swiper-prev w-[30px] h-[30px] md:w-[50px] md:h-[50px] flex items-center justify-center rounded-full border-2 border-white"
+        >
+          <div class="w-4 md:w-6"><img src="/img/left.png" alt="" /></div>
+        </div>
+        <div
+          class="swiper-next w-[30px] h-[30px] md:w-[50px] md:h-[50px] flex items-center justify-center rounded-full bg-white"
+        >
+          <div class="w-4 md:w-6"><img src="/img/right.png" alt="" /></div>
+        </div>
+      </div>
+      <div class="section-container">
+        <div class="py-2 border-white px-5 md:px-0 border-b">
+          <button
+            class="flex my-4 w-full items-center justify-between service-btn"
+          >
+            <p class="font-bold text-white text-[18px]">Property Tours</p>
+            <i
+              class="rounded-full w-8 h-8 border border-white flex justify-center items-center text-white transition-all fa-solid fa-minus service-icon transition-all"
+            ></i>
+          </button>
+          <p class="text-white pb-10 service-text transition-all">
+            Professional videographers capture comprehensive tours of estates,
+            focusing on key areas such as grand entrances, living spaces,
+            gourmet kitchens, master suites, and outdoor amenities like pools
+            and gardens. These tours often use cinematic techniques to create a
+            visually engaging experience.
+          </p>
+        </div>
+        <div class="py-2 border-white border-b px-5 md:px-0">
+          <button
+            class="flex my-4 w-full items-center justify-between service-btn"
+          >
+            <p class="font-bold text-white text-[18px]">Aerial Footage</p>
+            <i
+              class="rounded-full w-8 h-8 border border-white flex justify-center items-center transition-all fa-solid fa-plus bg-white service-icon transition-all"
+            ></i>
+          </button>
+          <p class="text-white pb-10 service-text transition-all none">
+            Professional videographers capture comprehensive tours of estates,
+            focusing on key areas such as grand entrances, living spaces,
+            gourmet kitchens, master suites, and outdoor amenities like pools
+            and gardens. These tours often use cinematic techniques to create a
+            visually engaging experience.
+          </p>
+        </div>
+        <div class="py-2 border-white border-b px-5 md:px-0">
+          <button
+            class="flex my-4 w-full items-center justify-between service-btn"
+          >
+            <p class="font-bold text-white text-[18px]">Lifestyle Videos</p>
+            <i
+              class="rounded-full w-8 h-8 border border-white flex justify-center items-center transition-all fa-solid fa-plus bg-white service-icon transition-all"
+            ></i>
+          </button>
+          <p class="text-white pb-10 service-text transition-all none">
+            Professional videographers capture comprehensive tours of estates,
+            focusing on key areas such as grand entrances, living spaces,
+            gourmet kitchens, master suites, and outdoor amenities like pools
+            and gardens. These tours often use cinematic techniques to create a
+            visually engaging experience.
+          </p>
+        </div>
+        <div class="py-2 border-white border-b px-5 md:px-0">
+          <button
+            class="flex my-4 w-full items-center justify-between service-btn"
+          >
+            <p class="font-bold text-white text-[18px]">
+              360<sup>o</sup> Videos (VR)
+            </p>
+            <i
+              class="rounded-full w-8 h-8 border border-white flex justify-center items-center transition-all fa-solid fa-plus bg-white service-icon transition-all"
+            ></i>
+          </button>
+          <p class="text-white pb-10 service-text transition-all none">
+            Professional videographers capture comprehensive tours of estates,
+            focusing on key areas such as grand entrances, living spaces,
+            gourmet kitchens, master suites, and outdoor amenities like pools
+            and gardens. These tours often use cinematic techniques to create a
+            visually engaging experience.
+          </p>
+        </div>
+        <div class="py-2 border-white border-b px-5 md:px-0">
+          <button
+            class="flex my-4 w-full items-center justify-between service-btn"
+          >
+            <p class="font-bold text-white text-[18px]">
+              Post-Production & Editing
+            </p>
+            <i
+              class="rounded-full w-8 h-8 border border-white flex justify-center items-center transition-all fa-solid fa-plus bg-white service-icon transition-all"
+            ></i>
+          </button>
+          <p class="text-white pb-10 service-text transition-all none">
+            Professional videographers capture comprehensive tours of estates,
+            focusing on key areas such as grand entrances, living spaces,
+            gourmet kitchens, master suites, and outdoor amenities like pools
+            and gardens. These tours often use cinematic techniques to create a
+            visually engaging experience.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="benefits" class="section-container">
+      <div class="py-11 text-white px-5 md:px-0">
+        <h1 class="uppercase text-2xl md:text-[32px] font-bold text-white my-8">
+          benefits
+        </h1>
+        <p class="my-4">
+          <b>Enhanced Marketability:</b> High-quality videos can attract more
+          potential buyers, increasing interest and speeding up the sale
+          process.
+        </p>
+        <p class="my-4">
+          <b>Competitive Edge:</b> Professional video production sets luxury
+          properties apart in a crowded market.
+        </p>
+        <p class="my-4">
+          <b>Emotianal Connection:</b> Videos help potential buyers form an
+          emotional connection with the property, making them more likely to
+          envision themselves living there.
+        </p>
+      </div>
+    </div>
+    <footer
+      id="contact"
+      class="section-container px-5 border-t border-[#f3f3f3] py-12 md:py-24 text-white font-[600]"
+    >
+      <h5 class="mb-2">
+        Address: Chingeltei district, 1 khoroo, Ulaanbaatar 14241, Mongolia
+      </h5>
+      <h5>Phone: +976 90988118 / E-mail: bolor@medialab.mn</h5>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
